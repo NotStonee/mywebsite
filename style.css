@@ -1,4 +1,43 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body {
+  font-family:Sans-serif;
+}
+.links {
+  text-align:center;
+  margin:0px;
+  position:relative;
+  top:220px;
+}
+h1 {
+  font-size:100px;
+  text-align:center;
+  position:relative;
+  top:220px;
+  margin:0px;
+}
+a {
+  bottom:40%;
+  margin-left:20px;
+}
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
 }
