@@ -24,6 +24,16 @@ p {
   padding-left:25%;
   padding-right:25%;
 }
+button {
+  margin-top:50px;
+  text-align:left;
+  font-size:30px;
+  margin-left:25%;
+  margin-right:25%;
+  background-color: transparent;
+  cursor: pointer;
+  padding:10px;
+}
 a:link {
   color: blue;
   background-color: transparent;
@@ -39,6 +49,10 @@ a:visited {
 a:hover {
   color: darkblue;
   background-color: transparent;
+  text-decoration: none;
+}
+button:hover {
+  background-color: grey;
   text-decoration: none;
 }
 
