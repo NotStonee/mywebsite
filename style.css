@@ -1,11 +1,13 @@
 body {
   font-family:Sans-serif;
 }
+
 .links {
   text-align:center;
   position:relative;
   top:40px;
 }
+
 h1 {
   text-align:left;
   font-size:75px;
@@ -14,9 +16,11 @@ h1 {
   margin:auto;
   top:40px;
 }
+
 .links a {
   margin:30px
 }
+
 p {
   margin-top:50px;
   text-align:left;
@@ -24,6 +28,7 @@ p {
   padding-left:25%;
   padding-right:25%;
 }
+
 button {
   margin-top:40px;
   text-align:left;
@@ -34,6 +39,7 @@ button {
   cursor: pointer;
   padding:10px;
 }
+
 a:link {
   color: blue;
   background-color: transparent;
@@ -51,6 +57,7 @@ a:hover {
   background-color: transparent;
   text-decoration: none;
 }
+
 button:hover {
   background-color: grey;
   text-decoration: none;
@@ -60,4 +67,13 @@ a:active {
   color: blue;
   background-color: transparent;
   text-decoration: none;
+}
+
+#greeting {
+  position:relative;
+  font-size:100px;
+  text-align:left;
+  padding-left:15%;
+  top:220px;
+  margin:0px;
 }
