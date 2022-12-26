@@ -25,6 +25,32 @@ h1 {
   top:40px;
 }
 
+#blog, #blogSub {
+  margin-left:10%;
+}
+
+.blogPost {
+  margin-left:25%;
+  margin-right:25%;
+}
+
+.blogPost:hover {
+  background-color:#ededed;
+  cursor:pointer;
+}
+
+.blogTitle {
+  font-size:40px;
+  color:darkblue;
+  position:relative;
+  top:20px;
+}
+
+#Socials {
+  font-size:60px;
+  top:0px;
+}
+
 .title {
   font-size:50px;
   color:midnightblue;
@@ -57,10 +83,27 @@ p {
   margin-right:25%;
 }
 
+.blogText {
+  margin-left:0%;
+  margin-right:0%;
+}
+
+.blogDate {
+  font-size:20px;
+}
+
+ul {
+  font-size:30px;
+  position:relative;
+  margin-left:25%;
+  margin-right:25%;
+}
+
 img {
   position:relative;
   margin-left:25%;
   margin-right:25%;
+  width:48vw;
 }
 .projects {
   margin-top:20px;
