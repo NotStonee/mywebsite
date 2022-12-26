@@ -25,6 +25,25 @@ h1 {
   top:40px;
 }
 
+.title {
+  font-size:50px;
+  color:midnightblue;
+  text-align:left;
+  position:relative;
+  margin-left:25%;
+  margin-right:25%;
+  margin-top:auto;
+  margin-bottom:0px;
+}
+
+#firstTitle {
+  margin-top:80px;
+}
+
+span {
+  color:grey;
+}
+
 .links a {
   margin:30px
 }
@@ -36,6 +55,20 @@ p {
   margin-top:50px;
   margin-left:25%;
   margin-right:25%;
+}
+
+img {
+  position:relative;
+  margin-left:25%;
+  margin-right:25%;
+}
+.projects {
+  margin-top:20px;
+}
+
+mark {
+  background-color:lightskyblue;
+  color:#212121;
 }
 
 button {
@@ -51,29 +84,32 @@ button {
 
 a:link {
   color: blue;
-  background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
   color: blue;
-  background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
   color: darkblue;
-  background-color: transparent;
   text-decoration: none;
+  transition:.5s;
+}
+
+mark:hover {
+  background-color:#71acd0;
+  transition:2s;
 }
 
 button:hover {
   background-color: grey;
   text-decoration: none;
+  transition:1.5s;
 }
 
 a:active {
   color: blue;
-  background-color: transparent;
   text-decoration: none;
 }
