@@ -8,12 +8,20 @@ body {
   top:40px;
 }
 
+#greeting {
+  font-size:9vw;
+  text-align:left;
+  position:absolute;
+  margin-left:15%;
+  top:45%;
+}
+
 h1 {
   text-align:left;
   font-size:75px;
-  padding-left:25%;
   position:relative;
-  margin:auto;
+  margin-left:25%;
+  margin-top:auto;
   top:40px;
 }
 
@@ -22,21 +30,22 @@ h1 {
 }
 
 p {
-  margin-top:50px;
   text-align:left;
   font-size:30px;
-  padding-left:25%;
-  padding-right:25%;
+  position:relative;
+  margin-top:50px;
+  margin-left:25%;
+  margin-right:25%;
 }
 
 button {
-  margin-top:40px;
   text-align:left;
   font-size:30px;
-  margin-left:25%;
-  margin-right:25%;
   background-color: transparent;
   cursor: pointer;
+  margin-top:40px;
+  margin-left:25%;
+  margin-right:25%;
   padding:10px;
 }
 
@@ -67,13 +76,4 @@ a:active {
   color: blue;
   background-color: transparent;
   text-decoration: none;
-}
-
-#greeting {
-  position:relative;
-  font-size:100px;
-  text-align:left;
-  padding-left:15%;
-  top:220px;
-  margin:0px;
 }
